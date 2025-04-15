@@ -1,4 +1,5 @@
 # Brain Tumor Detection Project
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fijisae.org%2Findex.php%2FIJISAE%2Farticle%2Fview%2F1310&psig=AOvVaw1IYZUgEdCthFCYjbf2FR1T&ust=1744794851903000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDxhMvZ2YwDFQAAAAAdAAAAABAE
 
 ## Overview
 This project is a deep learning-based application for detecting brain tumors from MRI images. It uses a pre-trained MobileNetV2 model with transfer learning and Grad-CAM visualization to highlight regions of interest in the images.
