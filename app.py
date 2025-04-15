@@ -6,7 +6,7 @@ import tensorflow as tf
 from keras._tf_keras.keras.models import load_model
 
 
-# Load your saved model
+# Load the model 
 model = load_model("brain_tumor_model.h5")
 
 st.title("Brain Tumor Detection with Grad-CAM")
@@ -26,7 +26,6 @@ if uploaded_file:
 
     def make_gradcam_heatmap(img_array, model, last_conv_layer_name=None):
         if last_conv_layer_name is None:
-            # Automatically find the last conv layer
             for layer in reversed(model.layers):
                 if isinstance(layer, tf.keras.layers.Conv2D):
                     last_conv_layer_name = layer.name
