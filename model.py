@@ -50,7 +50,7 @@ val_generator = datagen.flow_from_directory(
     batch_size=batch_size,
     class_mode='binary',
     subset='validation',
-    shuffle=False  # Important for evaluation
+    shuffle=False  
 )
 
 # Preview Images
@@ -66,9 +66,9 @@ plt.show()
 
 # Transfer Learning Model using MobileNetV2
 base_model = MobileNetV2(weights='imagenet', include_top=False, input_shape=(150, 150, 3))
-base_model.trainable = False  # Freeze base layers
+base_model.trainable = False  
 
-# Add Custom Layers
+# Custom Layers
 x = base_model.output
 x = GlobalAveragePooling2D()(x)
 x = Dense(128, activation='relu')(x)
