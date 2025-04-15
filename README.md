@@ -1,5 +1,5 @@
 # Brain Tumor Detection Project
-![submission_1310_979_coverImage_en_US](https://github.com/user-attachments/assets/1e748812-c9e5-471b-ad3a-3cbbeb4e665a)
+[![submission_1310_979_coverImage_en_US](https://github.com/user-attachments/assets/1e748812-c9e5-471b-ad3a-3cbbeb4e665a)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mdpi.com%2F2076-3417%2F13%2F6%2F3808&psig=AOvVaw1IYZUgEdCthFCYjbf2FR1T&ust=1744794851903000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDxhMvZ2YwDFQAAAAAdAAAAABAJ)
 
 ## Overview
 
