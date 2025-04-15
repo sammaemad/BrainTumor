@@ -1,5 +1,5 @@
 # Brain Tumor Detection Project
-![Uploading applsci-13-03808-g003.png…]()
+![Uploading image.png…]()
 
 ## Overview
 
